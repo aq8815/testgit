@@ -1,0 +1,3 @@
+/home/yanchang/work/codes/a50_sp01/app/voiceassistant/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/yanchang/work/codes/a50_sp01/app/voiceassistant/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/yanchang/work/codes/a50_sp01/app/voiceassistant/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
