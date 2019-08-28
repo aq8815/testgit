@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/yanchang/work/codes/git_apps/apps/voiceassistant/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/yanchang/work/tools/androidSdk/cmake/3.6.4111459/bin/cmake --build /home/yanchang/work/codes/git_apps/apps/voiceassistant/app/.cxx/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/yanchang/work/tools/androidSdk/cmake/3.6.4111459/bin/cmake --build /home/yanchang/work/codes/git_apps/apps/voiceassistant/app/.cxx/cmake/debug/arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android26 --gcc-toolchain=/home/yanchang/work/tools/androidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yanchang/work/tools/androidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/yanchang/work/codes/git_apps/apps/voiceassistant/app/src/main/jni/x2m200.cpp",
+					"workingDirectory" : "/home/yanchang/work/codes/git_apps/apps/voiceassistant/app/.cxx/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/yanchang/work/codes/git_apps/apps/voiceassistant/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "10307399925295424138"
+		}
+	},
+	"toolchains" : 
+	{
+		"10307399925295424138" : 
+		{
+			"cCompilerExecutable" : "/home/yanchang/work/tools/androidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/yanchang/work/tools/androidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
